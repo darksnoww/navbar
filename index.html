@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar | Tutoriel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #333;
+        }
+
+        h1 {
+            color: #4CAF50;
+            text-align: center; /* Centrer le titre */
+        }
+
+        .code-container {
+            background-color: #ffffff;
+            border-left: 4px solid #4CAF50;
+            padding: 10px;
+            margin-bottom: 20px;
+            white-space: pre-wrap;
+            font-family: monospace;
+            border-radius: 7px;
+            overflow-x: auto; /* Ajouter un défilement horizontal */
+        }
+
+        .code-comment {
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navbar</h1>
+    <div class="code-container">
+        <span class="code-comment">&lt;!-- Le code comme ça s'appelle "commentaire" --&gt;</span><br>
+&lt;div class=&quot;navbar&quot;&gt; <span class="code-comment">&lt;!-- Une div permet de styliser une partie de code spécifique --&gt;</span><br>
+    &lt;a href=&quot;#&quot;&gt;Lien 1&lt;/a&gt; <span class="code-comment">&lt;!-- Le "a" signifie un lien cliquable --&gt;</span><br>
+    &lt;a href=&quot;#&quot;&gt;Lien 2&lt;/a&gt;<br>
+    &lt;div class=&quot;dropdown&quot;&gt; <span class="code-comment">&lt;!-- La classe "dropdown" sert à créer un menu déroulant quand je passe sur le lien 3 --&gt;</span><br>
+        &lt;a href=&quot;#&quot;&gt;Lien 3&lt;/a&gt; <span class="code-comment">&lt;!-- href = vers où le lien retourne ( # = rien ) --&gt;</span><br>
+        &lt;div class=&quot;dropdown-content&quot;&gt; <span class="code-comment">&lt;!-- dropdown-content = l'affiche du menu déroulant --&gt;</span><br>
+            &lt;a href=&quot;#&quot;&gt;Sous-lien 1&lt;/a&gt;<br>
+            &lt;a href=&quot;#&quot;&gt;Sous-lien 2&lt;/a&gt;<br>
+            &lt;a href=&quot;#&quot;&gt;Sous-lien 3&lt;/a&gt;<br>
+        &lt;/div&gt; <span class="code-comment">&lt;!-- le "/" signifie que cette balise est la fin de la div --&gt;</span><br>
+    &lt;/div&gt;<br>
+    &lt;a href=&quot;#&quot;&gt;Lien 4&lt;/a&gt;<br>
+&lt;/div&gt;
+    </div>
+</body>
+</html>
